@@ -31,5 +31,5 @@ RUN apt-get clean all && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 
-
-CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+# password/token turned off - is unsafe and was removed for demo purposes only
+CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]

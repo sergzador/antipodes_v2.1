@@ -1,10 +1,10 @@
-EXEC sp_configure 'show advanced', 1
+EXEC sp_configure 'show advanced', 1;
 GO
-RECONFIGURE
+RECONFIGURE;
 GO
-EXEC sp_configure 'contained database authentication', 1
+EXEC sp_configure 'contained database authentication', 1;
 GO
-RECONFIGURE
+RECONFIGURE;
 GO
 
 CREATE DATABASE [INVDB];
@@ -24,7 +24,7 @@ LAST_TRADE NUMERIC(10,4),
 CURRENT_IIV NUMERIC(10,4),
 CHANGE NUMERIC(10,4),
 CHANGE_PCT NUMERIC(8,3),
-NAV_AT_MKT_CLOSE NUMERIC(10,4)
+NAV_AT_MKT_CLOSE NUMERIC(10,4),
 CURRENCY_CODE VARCHAR(3),
 CREATED_TSTP DATETIME,
 UPDATED_TSTP DATETIME,
