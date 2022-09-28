@@ -4,3 +4,6 @@
  3. in Terminal execute: ```docker-compose up --build```. This will build and deploy two containers: db and etl
  4. once build is completed, connect to Jupyter Lab by openning in browser ```localhost:8888```
  5. in Jupter Lab, open ```End-to-end-Execution-Demo.ipynb``` file and Run All Cells. This will export data from a web page and write it to DB
+ 
+ # To see the evidence of succesfull run:
+ 1. download End-to-end-Execution-Demo.html and open in browser
